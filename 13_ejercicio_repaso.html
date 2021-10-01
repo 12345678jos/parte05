@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let numeros = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+        let suma = 0
+        do{
+            suma = parseInt(prompt("introduce un número del 0 al 10"));
+            if(suma>10){
+                console.log("el numero es incorrescto");
+            }
+            else{
+            numeros[suma]++;
+            }
+            
+            }while (suma >= 0)
+            for( let i = 0; i<numeros.length; i++){
+                console.log(numeros[i]);
+            }
+         
+         
+           
+           
+        
+             
+           
+         
+        
+         
+    </script>
+</body>
+
+</html>
